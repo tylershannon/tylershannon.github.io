@@ -15,9 +15,10 @@ void draw() {
 
 // -------- create startup square --------
   fill(#00c3ff);
+
   pushMatrix();
   translate(width/5, height/2);
-  for ( int r=40; r>(0); r-=(4)) {
+  for ( int r=40; r>(10); r-=(4)) {
     rectMode(CENTER);
     rect(0, 0, r, r);
   }
