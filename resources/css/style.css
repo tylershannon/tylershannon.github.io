@@ -10,8 +10,7 @@ p {
   font-size: 15px;
 }
 
-#canvas {
+section {
   display: flex;
-  /* This centers our sketch horizontally. */
-  justify-content: center;
+  flex-direction: column;
 }
