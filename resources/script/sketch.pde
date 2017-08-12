@@ -19,7 +19,7 @@ void draw() {
   pushMatrix();
   translate(width/5, height/2);
   float rotation=(mouseX/50);
-  for ( int r=mouseY/2; r>(0); r-=(4)) {
+  for ( int r=mouseY/3; r>(0); r-=(4)) {
     rotate(radians(rotation));
     rectMode(CENTER);
     rect(0, 0, r, r);
@@ -31,7 +31,7 @@ void draw() {
   pushMatrix();
   translate((width/5)*2, height/2);
   float rotation=(mouseX/50);
-  for ( int r=mouseY/2; r>(0); r-=(4)) {
+  for ( int r=mouseY/3; r>(0); r-=(4)) {
     rotate(radians(rotation));
     rectMode(CENTER);
     rect(0, 0, r, r);
@@ -43,7 +43,7 @@ void draw() {
   pushMatrix();
   translate((width/5)*3, height/2);
   float rotation=(mouseX/50);
-  for ( int r=mouseY/2; r>(0); r-=(4)) {
+  for ( int r=mouseY/3; r>(0); r-=(4)) {
     rotate(radians(rotation));
     rectMode(CENTER);
     rect(0, 0, r, r);
@@ -55,7 +55,7 @@ void draw() {
   pushMatrix();
   translate((width/5)*4, height/2);
   float rotation=(mouseX/50);
-  for ( int r=mouseY/2; r>(0); r-=(4)) {
+  for ( int r=mouseY/3; r>(0); r-=(4)) {
     rotate(radians(rotation));
     rectMode(CENTER);
     rect(0, 0, r, r);
