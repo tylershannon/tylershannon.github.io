@@ -9,3 +9,9 @@ h1 {
 p {
   font-size: 15px;
 }
+
+#canvas {
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+}
