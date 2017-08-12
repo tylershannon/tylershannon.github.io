@@ -1,6 +1,7 @@
 html, body {
   font-family: Helvetica;
   text-align: center;
+  display: flex;
 }
 
 h1 {
