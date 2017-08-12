@@ -2,6 +2,8 @@ void setup() {
   size(900, 600);
   translate(-(width/2), -(height/2));
 
+  stroke(255);
+  fill(#00c3ff);
   pushMatrix();
   translate(width/5, height/2);
   for ( int r=40; r>(0); r-=(4)) {
