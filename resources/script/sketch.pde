@@ -7,13 +7,13 @@ void setup() {
 
 void draw() {
   noFill();
-  stroke(#ffffff);
-  background(0);
+  stroke(0);
+  background(#ffffff);
   textSize(15);
   fill(255);
   text("> move mouse left and right to control rotation", 20, 30);
   text("> move mouse up and down to control radius", 20, 50);
-  fill(#8ACFFF);
+  fill(#00c3ff);
 
   pushMatrix();
   translate(width/2, height/2);
