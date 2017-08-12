@@ -13,7 +13,7 @@ void draw() {
   fill(255);
   text("> move mouse left and right to control rotation", 20, 30);
   text("> move mouse up and down to control radius", 20, 50);
-  fill(0);
+  fill(#8ACFFF);
 
   pushMatrix();
   translate(width/2, height/2);
