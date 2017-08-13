@@ -8,10 +8,6 @@ void draw() {
   noFill();
   stroke(255);
   background(#ffffff);
-  textSize(15);
-  fill(0);
-  text("> move mouse left and right to control rotation", 20, 30);
-  text("> move mouse up and down to control radius", 20, 50);
 
 // -------- create startup square blue --------
   fill(#00c3ff);
